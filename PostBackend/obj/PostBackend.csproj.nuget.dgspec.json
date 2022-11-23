@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\c#\\PostBackend\\PostBackend\\PostBackend.csproj": {}
+    "C:\\Projects\\c#\\FullstackApp\\PostBackend\\PostBackend\\PostBackend.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\c#\\PostBackend\\PostBackend\\PostBackend.csproj": {
+    "C:\\Projects\\c#\\FullstackApp\\PostBackend\\PostBackend\\PostBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\c#\\PostBackend\\PostBackend\\PostBackend.csproj",
+        "projectUniqueName": "C:\\Projects\\c#\\FullstackApp\\PostBackend\\PostBackend\\PostBackend.csproj",
         "projectName": "PostBackend",
-        "projectPath": "C:\\Projects\\c#\\PostBackend\\PostBackend\\PostBackend.csproj",
+        "projectPath": "C:\\Projects\\c#\\FullstackApp\\PostBackend\\PostBackend\\PostBackend.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\c#\\PostBackend\\PostBackend\\obj\\",
+        "outputPath": "C:\\Projects\\c#\\FullstackApp\\PostBackend\\PostBackend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,15 +44,15 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
+            "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.10, )"
+              "version": "[7.0.0, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.7, )"
+              "version": "[7.0.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",

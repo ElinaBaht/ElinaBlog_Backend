@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PostBackend.Data;
@@ -6,7 +7,8 @@ using PostBackend.Models;
 
 namespace PostBackend.Controllers
 {
-    [Route("api/[controller]")]
+    [EnableCors("MyPolicy")]
+    [Route("[controller]")]
     [ApiController]
     public class PostsController : ControllerBase
     {
@@ -17,6 +19,7 @@ namespace PostBackend.Controllers
         {
             this.dataContext = dataContext;
         }
+       
         [HttpGet]
         public async Task<ActionResult<List<PostModel>>> Get()
         {

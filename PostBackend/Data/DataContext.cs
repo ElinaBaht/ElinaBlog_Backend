@@ -8,6 +8,7 @@ namespace PostBackend.Data
     {
        
         public DbSet<PostModel> Posts { get; set; }
+        public DbSet<User> Users { get; set; }
 
         public DataContext(DbContextOptions<DataContext> options)
         : base(options)
